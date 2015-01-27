@@ -36,6 +36,16 @@ bin/aws-cluster-cmd <action> <config_file>
 
 The only supported action is `launch`, which launch a cluster according to the content of the config file.
 
+## AWS credentials
+
+The tool needs a set of AWS credentials to be able to interact with EC2. The credentials have to be put in a `$HOME/.aws/credentials` like this:
+
+```
+[default]
+aws_access_key_id = ABCDEFGHIGKLMNOPQRSTUVWXYZ
+aws_secret_access_key = A12B23C45D67E89STHASTHHA+
+```
+
 ## config file
 
 `aws-cluster-cmd` extracts all information it requires to launch a cluster from the config file
