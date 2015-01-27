@@ -38,7 +38,7 @@ The only supported action is `launch`, which launch a cluster according to the c
 
 ## AWS credentials
 
-The tool needs a set of AWS credentials to be able to interact with EC2. The credentials have to be put in a `$HOME/.aws/credentials` like this:
+The tool needs a set of AWS credentials to be able to interact with EC2. The credentials have to be put in a `$HOME/.aws/credentials` file like this:
 
 ```
 [default]
